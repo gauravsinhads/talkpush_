@@ -60,6 +60,8 @@ fig1w = px.line(df_avg_overall_w,
             line_shape="linear",text="TEXT_LABEL")
     # Update the trace to display the text on the chart
 fig1w.update_traces(textposition="top center")
+# Set up the dashboard
+st.title("Streamlit Talkpush Dashboard")
 # Input widgets
 col = st.columns(2)
 # Display Charts
