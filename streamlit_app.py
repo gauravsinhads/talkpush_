@@ -5,7 +5,7 @@ import plotly.io as pio
 import plotly.graph_objects as go
 
     # Cargar los datos desde el archivo CSV
-    df = pd.read_csv('data_talkpush.csv')
+    df = pd.read_csv('candidateinf_DEC-MAR.csv')
     # Convert DATE_DAY to datetime
     df["DATE_DAY"] = pd.to_datetime(df["DATE_DAY"])
 
