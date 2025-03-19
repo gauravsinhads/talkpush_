@@ -3,6 +3,12 @@ import pandas as pd
 import plotly.express as px
 import plotly.io as pio
 import plotly.graph_objects as go
+
+
+# Set page config
+st.set_page_config(page_title="Streamlit talkpush Dashboard", layout="wide")
+
+
 # Cargar los datos desde el archivo CSV
 df = pd.read_csv('candidateinf_DEC-MAR.csv')
 # Convert DATE_DAY to datetime
